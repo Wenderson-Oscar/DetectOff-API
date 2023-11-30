@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detecção de Comentários Ofensivos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #336699;
+            padding: 20px;
+            color: white;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .card {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+        .content {
+            flex: 3;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+        .navbar {
+            background-color: #336699;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .offensive-card {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+            margin-left: 20px; /* Espaço entre o card principal e o card de comentários ofensivos */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Bem-Vindos à API de Detecção de Comentários Ofensivos</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>Sobre a API</h2>
+            <p>Esta API é usada para prever se um comentário é ofensivo ou não.</p>
+            <p>Endpoints:</p>
+            <a href="/grafic/offensive_comments">Dados Ofensivos</a> <br>
+            <a href="/grafic/nonoffensive_comments">Dados Não Ofensivos</a>
+            <div class="input-card">
+        </div>
+        </div>
+        <div class="content">
+        </div>
+        <div class="offensive-card">
+
+        </div>
+        <div class="card">
+            <h2>Exemplos de Comentários</h2>
+            <h3>Comentário Ofensivo</h3>
+            <p>"Esse site é horrível, não serve pra nada."</p>
+            <p><strong>Resultado:</strong> Ofensivo</p>
+            <h3>Comentário Não Ofensivo</h3>
+            <p>"Parabéns pelo ótimo trabalho!"</p>
+            <p><strong>Resultado:</strong> Não Ofensivo</p>
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="/docs">Documentação (Docs)</a>
+    </div>
+</body>
+</html>

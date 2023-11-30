@@ -1,0 +1,13 @@
+__pycache__
+env
+model/ML/offensive_tfidf_svm.pkl
+model/dataset/dataset_test
+controller/logic.py
+model/HateBR
+comments.db
+controller/data_analysis.ipynb
+controller/remove_comment.py
+model/dataset/
+model/db
+model/model_ML_SVM.ipynb
+model/__MACOSX
