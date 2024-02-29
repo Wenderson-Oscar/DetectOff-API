@@ -8,7 +8,6 @@ Esta seção deve oferecer uma visão geral da API, explicando seu propósito e 
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/FastAPI-51bd9c?style=for-the-badge&logo=fastapi&logoColor=white">
-<img src="https://img.shields.io/badge/scikit-learn-3776AB?style=for-the-badge&logo=scikit-learn&logoColor=orange">
 
 ### 3. Configuração do Ambiente
 
