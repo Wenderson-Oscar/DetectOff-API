@@ -17,6 +17,8 @@ Esta seção deve oferecer uma visão geral da API, explicando seu propósito e 
 pip install -r requirements.txt 
 ```
 
+#### Crie um ambiente de gerenciamente de dados sensível
+
 ### 4. Uso da API
 
 #### ///////////////////////////// CONSUME API - PREDICT /////////////////////////////
